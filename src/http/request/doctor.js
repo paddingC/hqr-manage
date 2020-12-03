@@ -2,7 +2,7 @@ import axios from '../axios'
 /* 医生管理 */
 export const doctorsFind = (data) => {
   return axios({
-    url: 'dzsf/doctor/find',
+    url: 'doctor/find',
     method: 'post',
     data
   })
@@ -10,7 +10,7 @@ export const doctorsFind = (data) => {
 /* 新增查询人员 */
 export const findusers = (data) => {
   return axios({
-    url: 'dzsf/doctor/findusers',
+    url: 'doctor/findusers',
     method: 'post',
     data
   })
@@ -18,7 +18,7 @@ export const findusers = (data) => {
 /* 新增保存 */
 export const save = (data) => {
   return axios({
-    url: 'dzsf/doctor/save',
+    url: 'doctor/save',
     method: 'post',
     data
   })
@@ -26,7 +26,7 @@ export const save = (data) => {
 /* 状态 */
 export const EnableDisable = (data) => {
   return axios({
-    url: 'dzsf/doctor/EnableDisable',
+    url: 'doctor/EnableDisable',
     method: 'post',
     data
   })
@@ -34,7 +34,7 @@ export const EnableDisable = (data) => {
 /* 删除 */
 export const del = (data) => {
   return axios({
-    url: 'dzsf/doctor/delete',
+    url: 'doctor/delete',
     method: 'post',
     data
   })
@@ -42,7 +42,7 @@ export const del = (data) => {
 /* 编辑保存 */
 export const updateinfo = (data) => {
   return axios({
-    url: 'dzsf/doctor/updateinfo',
+    url: 'doctor/updateinfo',
     method: 'post',
     data
   })
@@ -50,7 +50,7 @@ export const updateinfo = (data) => {
 /* 删除头像 */
 export const removeheadimage = (data) => {
   return axios({
-    url: 'dzsf/doctor/removeheadimage',
+    url: 'doctor/removeheadimage',
     method: 'post',
     data
   })

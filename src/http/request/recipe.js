@@ -10,7 +10,7 @@ import axios from '../axios'
 } */
 export const finddoc = (data) => {
   return axios({
-    url: 'dzsf/prescription/sxfinddoc',
+    url: 'prescription/sxfinddoc',
     method: 'post',
     data
   })
@@ -18,14 +18,14 @@ export const finddoc = (data) => {
 /* 查询处方细单 */
 export const finddtl = (data) => {
   return axios({
-    url: 'dzsf/prescription/finddtl',
+    url: 'prescription/finddtl',
     method: 'post',
     data
   })
 }
 export const gethismessage = (data) => {
   return axios({
-    url: 'dzsf/message/gethismessage',
+    url: 'message/gethismessage',
     method: 'post',
     data
   })
@@ -34,14 +34,14 @@ export const gethismessage = (data) => {
 /**/
 export const findDocs = (data) => {
   return axios({
-    url: 'dzsf/prescribing/findDocs',
+    url: 'prescribing/findDocs',
     method: 'post',
     data
   })
 }
 export const findDtls = (data) => {
   return axios({
-    url: 'dzsf/prescribing/findDtls',
+    url: 'prescribing/findDtls',
     method: 'post',
     data
   })

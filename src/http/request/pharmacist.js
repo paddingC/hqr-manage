@@ -3,7 +3,7 @@ import axios from '../axios'
 /* 执行药师查询 */
 export const pharmacistget = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/get',
+    url: 'pharmacist/get',
     method: 'post',
     data
   })
@@ -11,7 +11,7 @@ export const pharmacistget = (data) => {
 /* 新增 */
 export const findPage = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/getusers',
+    url: 'pharmacist/getusers',
     method: 'post',
     data
   })
@@ -19,7 +19,7 @@ export const findPage = (data) => {
 /* 新增保存 */
 export const insert = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/insert',
+    url: 'pharmacist/insert',
     method: 'post',
     data
   })
@@ -27,7 +27,7 @@ export const insert = (data) => {
 /* 修改 */
 export const update = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/update',
+    url: 'pharmacist/update',
     method: 'post',
     data
   })
@@ -35,7 +35,7 @@ export const update = (data) => {
 // 删除
 export const del = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/delete',
+    url: 'pharmacist/delete',
     method: 'post',
     data
   })
@@ -43,7 +43,7 @@ export const del = (data) => {
 /* 状态 */
 export const updatestatus = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/enableordisable',
+    url: 'pharmacist/enableordisable',
     method: 'post',
     data
   })
@@ -51,7 +51,7 @@ export const updatestatus = (data) => {
 // 删除头像
 export const delheadimage = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/delheadimage',
+    url: 'pharmacist/delheadimage',
     method: 'post',
     data
   })
@@ -59,14 +59,14 @@ export const delheadimage = (data) => {
 // 删除电子签章
 export const delesignature = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/delesignature',
+    url: 'pharmacist/delesignature',
     method: 'post',
     data
   })
 }
 export const delcertificate = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/delcertificate ',
+    url: 'pharmacist/delcertificate ',
     method: 'post',
     data
   })
@@ -75,7 +75,7 @@ export const delcertificate = (data) => {
 /* 查询接口 */
 export const find = (data) => {
   return axios({
-    url: 'dzsf/doctor/find ',
+    url: 'doctor/find ',
     method: 'post',
     data
   })
@@ -83,7 +83,7 @@ export const find = (data) => {
 /* 新增 查询接口 */
 export const findusers = (data) => {
   return axios({
-    url: 'dzsf/doctor/findusers ',
+    url: 'doctor/findusers ',
     method: 'post',
     data
   })
@@ -91,7 +91,7 @@ export const findusers = (data) => {
 /* 新增 */
 export const doctorSave = (data) => {
   return axios({
-    url: 'dzsf/doctor/save ',
+    url: 'doctor/save ',
     method: 'post',
     data
   })
@@ -99,7 +99,7 @@ export const doctorSave = (data) => {
 /* 状态 */
 export const enableDisable = (data) => {
   return axios({
-    url: 'dzsf/doctor/EnableDisable ',
+    url: 'doctor/EnableDisable ',
     method: 'post',
     data
   })
@@ -107,7 +107,7 @@ export const enableDisable = (data) => {
 /* 批量删除 */
 export const doctorDelete = (data) => {
   return axios({
-    url: 'dzsf/doctor/delete ',
+    url: 'doctor/delete ',
     method: 'post',
     data
   })
@@ -115,14 +115,14 @@ export const doctorDelete = (data) => {
 /* 删除电子签章 */
 export const removeEsignature = (data) => {
   return axios({
-    url: 'dzsf/doctor/removeEsignature ',
+    url: 'doctor/removeEsignature ',
     method: 'post',
     data
   })
 }
 export const fingerUpdate = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/update',
+    url: 'pharmacist/update',
     method: 'post',
     data
   })
@@ -130,7 +130,7 @@ export const fingerUpdate = (data) => {
 // 保存指纹信息
 export const saveFingerPoint = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/saveFingerPoint',
+    url: 'pharmacist/saveFingerPoint',
     method: 'post',
     data
   })
@@ -138,7 +138,7 @@ export const saveFingerPoint = (data) => {
 /* 保存身份证头像 */
 export const uploadHeadImage = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/uploadHeadImage',
+    url: 'pharmacist/uploadHeadImage',
     method: 'post',
     data
   })
@@ -146,7 +146,7 @@ export const uploadHeadImage = (data) => {
 /* 执业药师签到记录 */
 export const getSignRecord = (data) => {
   return axios({
-    url: 'dzsf/pharmacist/getSignRecord',
+    url: 'pharmacist/getSignRecord',
     method: 'post',
     data
   })

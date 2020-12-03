@@ -4,7 +4,7 @@ import axios from '../axios'
 */
 export const goodsFind = (data) => {
   return axios({
-    url: 'dzsf/goods/find',
+    url: 'goods/find',
     method: 'post',
     data
   })
@@ -14,7 +14,7 @@ export const goodsFind = (data) => {
 */
 export const goodsSave = (data) => {
   return axios({
-    url: 'dzsf/goods/save',
+    url: 'goods/save',
     method: 'post',
     data
   })
@@ -32,7 +32,7 @@ export const up580 = (data) => {
 */
 export const EnableDisable = (data) => {
   return axios({
-    url: 'dzsf/goods/EnableDisable',
+    url: 'goods/EnableDisable',
     method: 'post',
     data
   })
@@ -42,7 +42,7 @@ export const EnableDisable = (data) => {
 */
 export const goodsImport = (data) => {
   return axios({
-    url: 'dzsf/goods/import',
+    url: 'goods/import',
     method: 'post',
     data
   })
@@ -52,7 +52,7 @@ export const goodsImport = (data) => {
 */
 export const goodsDelete = (data) => {
   return axios({
-    url: 'dzsf/goods/delete',
+    url: 'goods/delete',
     method: 'post',
     data
   })
@@ -60,7 +60,7 @@ export const goodsDelete = (data) => {
 /* 价格记录 */
 export const getPriceReg = (data) => {
   return axios({
-    url: 'dzsf/goods/getPriceReg',
+    url: 'goods/getPriceReg',
     method: 'post',
     data
   })

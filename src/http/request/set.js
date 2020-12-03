@@ -3,7 +3,7 @@ import axios from '../axios'
 /* 查询 */
 export const getconfig = (data) => {
   return axios({
-    url: 'dzsf/config/getconfig',
+    url: 'config/getconfig',
     method: 'post',
     data
   })
@@ -12,7 +12,7 @@ export const getconfig = (data) => {
 /* 保存 */
 export const saveconfig = (data) => {
   return axios({
-    url: 'dzsf/config/save',
+    url: 'config/save',
     method: 'post',
     data
   })
@@ -21,14 +21,14 @@ export const saveconfig = (data) => {
 /* 删除LOGO */
 export const removelogo = (data) => {
   return axios({
-    url: 'dzsf/config/removelogo',
+    url: 'config/removelogo',
     method: 'post',
     data
   })
 }
 export const removeSeal = (data) => {
   return axios({
-    url: 'dzsf/config/removeSeal',
+    url: 'config/removeSeal',
     method: 'post',
     data
   })
@@ -36,7 +36,7 @@ export const removeSeal = (data) => {
 /* 用户移动页面查询 */
 export const selectMobileConfig = (data) => {
   return axios({
-    url: 'dzsf/config/selectMobileConfig',
+    url: 'config/selectMobileConfig',
     method: 'post',
     data
   })
@@ -44,7 +44,7 @@ export const selectMobileConfig = (data) => {
 // 字典值
 export const batchGetDictList = (data) => {
   return axios({
-    url: 'base/dictionary/batchGetDictList',
+    url: 'dictionary/batchGetDictList',
     method: 'post',
     data
   })

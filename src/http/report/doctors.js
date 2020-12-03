@@ -2,21 +2,21 @@ import axios from '../axios'
 //执业医师处方汇总查询报表
 export const inquiryRegCollect = (data) => {
   return axios({
-    url: 'dzsf/report/inquiryRegCollect',
+    url: 'report/inquiryRegCollect',
     method: 'post',
     data
   })
 }
 export const findByPrescriptionInfo = (data) => {
   return axios({
-    url: 'dzsf/inquiry/findByPrescriptionInfo',
+    url: 'inquiry/findByPrescriptionInfo',
     method: 'post',
     data
   })
 }
 export const getInquiryDtl = (data) => {
   return axios({
-    url: 'dzsf/inquiry/getInquiryDtl',
+    url: 'inquiry/getInquiryDtl',
     method: 'post',
     data
   })

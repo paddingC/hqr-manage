@@ -3,7 +3,7 @@ import axios from '../axios'
 /* 日统计 */
 export const getdayworkload = (data) => {
   return axios({
-    url: 'dzsf/prescription/getdayworkload',
+    url: 'prescription/getdayworkload',
     method: 'post',
     data
   })
@@ -11,7 +11,7 @@ export const getdayworkload = (data) => {
 /* 月统计 */
 export const getmonthworkload = (data) => {
   return axios({
-    url: 'dzsf/prescription/getmonthworkload',
+    url: 'prescription/getmonthworkload',
     method: 'post',
     data
   })
@@ -20,7 +20,7 @@ export const getmonthworkload = (data) => {
 /* 日统计 */
 export const getDayWorkLoad = (data) => {
   return axios({
-    url: 'dzsf/prescribing/getDayWorkLoad',
+    url: 'prescribing/getDayWorkLoad',
     method: 'post',
     data
   })
@@ -28,7 +28,7 @@ export const getDayWorkLoad = (data) => {
 /* 月统计 */
 export const getMonthWorkLoad = (data) => {
   return axios({
-    url: 'dzsf/prescribing/getMonthWorkLoad',
+    url: 'prescribing/getMonthWorkLoad',
     method: 'post',
     data
   })
