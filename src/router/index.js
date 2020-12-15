@@ -43,9 +43,10 @@ Vue.use(Router)
 
 const router = new Router({
   mode: 'history',
+  base: "/page/",
   routes: [
     {
-      path: '/',
+      path: '/hello',
       name: 'HelloWorld',
       component: HelloWorld
     }, {

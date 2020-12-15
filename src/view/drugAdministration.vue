@@ -53,9 +53,9 @@
           <el-form-item>
             <el-button type="primary" @click="dataImport">模板导入</el-button>
           </el-form-item>
-          <el-form-item>
+          <!-- <el-form-item>
             <el-button type="primary" @click="up580">上传货品至580</el-button>
-          </el-form-item>
+          </el-form-item> -->
         </div>
       </el-form>
     </div>
@@ -80,7 +80,7 @@
           <span @click="getPricelist(scope.row)" style="width: 100%;display: inline-block;">{{scope.row.price}}</span>
         </template>
       </elx-editable-column>
-      <elx-editable-column prop="verify580Status" label="580下发状态" width="120px" :formatter="formatterStatus1"></elx-editable-column>
+     <!--  <elx-editable-column prop="verify580Status" label="580下发状态" width="120px" :formatter="formatterStatus1"></elx-editable-column> -->
       <elx-editable-column prop="usestatus" label="状态" :formatter="formatterStatus"></elx-editable-column>
       <elx-editable-column prop="manufacturer" label="生产厂家" width="120px"></elx-editable-column>
       <elx-editable-column prop="approvedocno" label="批准文号" width="120px"></elx-editable-column>

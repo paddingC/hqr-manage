@@ -134,7 +134,7 @@
           <el-button type="primary" @click.stop="saveSet('formSet')">保 存</el-button>
         </div>
       </el-tab-pane>
-      <el-tab-pane label="用户移动页面设置" name="fourth">
+      <!-- <el-tab-pane label="用户移动页面设置" name="fourth">
         <div class="saveBtn">
           <el-button type="primary" @click="saveSet('formMobelSet')">保 存</el-button>
         </div>
@@ -250,7 +250,7 @@
             </el-radio-group>
           </el-form-item>
         </el-form>
-      </el-tab-pane>
+      </el-tab-pane> -->
       <el-tab-pane label="视频设置" name="five">
         <div class="saveBtn">
           <el-button type="primary" @click="saveSet('formSet')">保 存</el-button>
@@ -317,7 +317,7 @@
           </el-form-item>
         </el-form>
       </el-tab-pane>
-      <el-tab-pane label="硬件设置" name="six">
+      <!-- <el-tab-pane label="硬件设置" name="six">
         <div class="saveBtn">
           <el-button type="primary" @click="saveSet('formSet')">保 存</el-button>
         </div>
@@ -358,8 +358,8 @@
             <p class="warnText">设置门店统一的高拍仪型号。如部分门店的高拍仪和其他门店不同，可以由门店人员在系统中单独设置。</p>
           </el-form-item>
         </el-form>
-      </el-tab-pane>
-      <el-tab-pane label="移动药师端常见问题" name="seven">
+      </el-tab-pane> -->
+      <!-- <el-tab-pane label="移动药师端常见问题" name="seven">
         <div class="child">
           <div style="margin-bottom: 20px">
             <el-button size="mini" type="primary" @click="addquesdoc">新增</el-button>
@@ -383,7 +383,6 @@
               </template>
             </elx-editable-column>
           </elx-editable>
-          <!--分页-->
           <div class="block" style="margin: 20px; text-align: right">
             <el-pagination
               @size-change="handleSizeChangeDtlDoc"
@@ -396,7 +395,6 @@
             ></el-pagination>
           </div>
         </div>
-        <!--新增问题-->
         <el-dialog
           :title="isAddQuestionDoc?'新增问题':'修改问题'"
           :visible.sync="dialogDrugsDoc"
@@ -425,7 +423,7 @@
             <el-button type="primary" @click="saveChildDoc('saveQuestionParamsDoc')">确 定</el-button>
           </span>
         </el-dialog>
-      </el-tab-pane>
+      </el-tab-pane> -->
     </el-tabs>
   </div>
 </template>
@@ -554,7 +552,7 @@ export default {
   mounted () {
     this.getForm()
     this.getNum()
-    this.find()
+    //this.find()
   },
   methods: {
     // 新增医生问题

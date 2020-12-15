@@ -24,7 +24,7 @@ export const getInquiryDtl = (data) => {
 // 问题列表
 export const find = (data) => {
   return axios({
-    url: 'dzsfpro/companyQuestion/find',
+    url: 'companyQuestion/find',
     method: 'post',
     data
   })
